@@ -37,8 +37,6 @@ java{
 ext{
     mindustryVersion = 'v158.1' //the build number that this mod is made for
     jabelVersion = "93fde537c7"
-    isWindows = System.getProperty("os.name").toLowerCase().contains("windows")
-    sdkRoot = System.getenv("ANDROID_HOME") ?: System.getenv("ANDROID_SDK_ROOT")
 }
 
 //java 8 backwards compatibility flag
