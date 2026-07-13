@@ -19,3 +19,7 @@ Output jar should be in `build/libs`.
 
 Simply place the output jar from the step above in your server's `config/mods` directory and restart the server.
 List your currently installed plugins/mods by running the `mods` command.
+
+### Updating Dependencies
+
+By default, this template depends on the latest (stable) release of Mindustry. Gradle caches the JARs it fetches; to refresh them, run: `./gradlew --refresh-dependencies jar`
